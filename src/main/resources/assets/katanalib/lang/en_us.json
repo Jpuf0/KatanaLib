@@ -1,0 +1,7 @@
+{
+  "text.autoconfig.katanalib.option.enabled": "Whether or not the library is enabled",
+  "text.autoconfig.katanalib.option.notbroken": "If enabled Mod works :)",
+
+  "text.autoconfig.katanalib.category.default": "General",
+  "text.autoconfig.katanalib.title": "KatanaLib Config"
+}

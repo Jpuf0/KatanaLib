@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "KatanaLib",
+  "id": "katanalib",
   "version": "${version}",
   "name": "KatanaLib",
   "description": "",
@@ -9,18 +9,25 @@
   ],
   "contact": {},
   "license": "MIT",
+  "icon": "assets/katanalib/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
       "xyz.jpuf.katanalib.KatanaLib"
+    ],
+    "modmenu": [
+      "xyz.jpuf.katanalib.integration.ModMenuIntegration"
     ]
+  },
+  "custom": {
+    "modmenu:api": true
   },
   "mixins": [
     "KatanaLib.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.9.3+build.207",
+    "fabricloader": "*",
     "fabric": "*",
-    "minecraft": "1.16.3"
+    "minecraft": "*"
   }
 }

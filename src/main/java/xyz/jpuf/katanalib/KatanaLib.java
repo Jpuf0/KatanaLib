@@ -22,6 +22,6 @@ public class KatanaLib implements ModInitializer {
     }
 
     public static Identifier id(String name) {
-        return new Identifier("KatanaLib", name);
+        return new Identifier("katanalib", name);
     }
 }
