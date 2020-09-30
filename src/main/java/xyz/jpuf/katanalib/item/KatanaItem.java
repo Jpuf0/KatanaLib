@@ -15,6 +15,6 @@ public class KatanaItem extends SwordItem {
     }
 
     public KatanaItem(ToolMaterial toolMaterial, int attackDamage, float attackSpeed, Settings settings) {
-        super(toolMaterial, attackDamage, attackSpeed, settings);
+        this(toolMaterial, attackDamage, attackSpeed, settings, 1);
     }
 }
